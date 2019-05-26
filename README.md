@@ -21,3 +21,6 @@ Create a new C (or any other language) controller called Auto_driver.c. using th
 
 ## 4) Linking the car to the Controller
 By now if you have followed all the step above, you would now see your controller file amongst all other controller files. Now you can link the car connected to the controller. To do this, find the node "BMW X5" on the window in the left side of the software. Double click on it and a drop down menu will appear. In the menu, find "controller". Double Click controller and choose the controller you created in the above step: auto_drive
+
+## 5) Run the Simulation 
+You can now run the simulation and see the results.
