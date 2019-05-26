@@ -10,8 +10,11 @@ This project runs on webots, an open source robotics simulation software. First 
 .Depending on the Operating System of your machine, select the version you want to download. Once download is complete, install the file and restart your system
 
 ## 2) Setting up the world in Webots
-Once your version of webots is runnig, its time to set up the environment within the software. Go to file, and choose "Import VRML97" and in the file selection menu choose, the "city.wrl" (city world file). The world file contains all the information  regarding the world in webots 
+Start Webots by double-clicking on its icon (or invoking it from a command line in a Terminal). If you are running Webots for the first time on this computer, you may be prompted to select a graphical theme. You may also be invited to follow the Webots guided tour, go ahead and close the guided tour.
+Pause the current simulation by clicking on the Pause button of the 3D view. The simulation is paused if the virtual time counter on the main toolbar is stopped. Create a new project from the Wizards menu by selecting the New Project Directory... menu item. Follow the instructions. Name the project directory VehiConnect_simulation instead of the proposed my_project. Name the world file my_first_simulation.wbt instead of the proposed empty.wbt. Go to file, and choose "Import VRML97" and in the file selection menu choose, the "city.wrl" (city world file). The world file contains all the information  regarding the world in webots 
 
 ## 3) Creating a controller
 ### What is a controller?
 A controller is a program that defines the behavior of a robot. Webots controllers can be written in the following programming languages: C, C++, Java, Python, MATLAB, ROS, etc. C, C++ and Java controllers need to be compiled before they can be run as robot controllers. Python and MATLAB controllers are interpreted languages so they will run without being compiled. In this tutorial, we are going to use C as a reference language but all the code snippets are also available in C++, Java, Python and MATLAB
+### Implementation
+Create a new C (or any other language) controller called Auto_driver.c. using the Wizards / New Robot Controller... menu. This will create a new directory in my_first_simulation/controllers. Select the option offering you to open the source file in the text editor.
