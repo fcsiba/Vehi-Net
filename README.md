@@ -1,4 +1,4 @@
-# Vehi-Net
+# Vehi-Connect
 FYP Fall 2018:
 
 This project consists of a simulation of multiple self driving vehicles which are wirelessly interconnected to each other and are continuously sharing their sensor data amongst themselves. Vehicles will use this shared data to make corrective measures in their driving, they will have the ability to detect an accident or problem in their path before they reach the point of the problem, laying the groundwork for a connected, safer future. The Simulation is built on the Robot simulation platform, "WEBOTS". Vehi-Connect scans the vicinity for other vehicles and tracks their positions, directions and speeds, warning other vehicles of potential hazards that might otherwise be invisible. Vehi-Connect holds tremendous potential, as this technology enables the car to acquire and analyse information outside the bounds of the driver’s field of vision.
